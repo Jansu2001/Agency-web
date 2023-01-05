@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+.nav-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    background-color: black;
+    color: wheat;
+}
+.items{
+    display: flex;
+    list-style: none;
+}
+.item{
+    
+    font-size: 22px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 10px;
+
+}
+
+
+/* Banner */
+
+.banner-con{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    background-image: url(/images/Banner.png);
+    background-repeat: no-repeat;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    color: aquamarine;
+    /* background-color: rgba(red, green, blue, alpha);
+    background-blend-mode: overlay; */
+}
+.bt{
+    font-size: 85px;
+    font-weight: bold;
+}
+.red{
+    color: red;
+}
+.pera{
+    font-size: 22px;
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    color: black;
+}
+
+/* .btns{
+    padding: 15px 35px;
+    background-color: red;
+    border: none;
+    margin: 5px;
+} */
+.d-b{
+    padding: 15px 35px;
+    background-color: red;
+    border: none;
+    color: white;
+    font-size: 18px;
+    margin: 5px;
+
+}
+.h-b{
+    padding: 15px 35px;
+    border: none;
+    font-size: 18px;
+    margin: 5px;
+}
